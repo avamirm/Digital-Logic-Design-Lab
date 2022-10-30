@@ -1,0 +1,69 @@
+# Compile of FunctionGenerator.vo was successful.
+# Compile of FunctionGenTB.v was successful.
+vsim -gui work.functionGenTB -L altera_ver -L cycloneive_ver -L cycloneiv_ver -sdftyp /FG=D:/ava/term4/FLAT/DLD/model/FunctionGenerator_v.sdo
+# vsim -gui work.functionGenTB -L altera_ver -L cycloneive_ver -L cycloneiv_ver -sdftyp "/FG=D:/ava/term4/FLAT/DLD/model/FunctionGenerator_v.sdo" 
+# Start time: 13:17:41 on May 28,2022
+# Loading work.functionGenTB
+# Loading work.FunctionGenerator
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/ava/term4/FLAT/DLD/model/FunctionGenerator_v.sdo
+# Loading instances from FunctionGenerator_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from D:/ava/term4/FLAT/DLD/model/FunctionGenerator_v.sdo
+# Loading timing data from FunctionGenerator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /functionGenTB File: D:/ava/term4/FLAT/DLD/model/FunctionGenTB.v
+add wave -position insertpoint sim:/functionGenTB/*
+run -all
+# Break key hit
+# Break in Module cycloneive_ena_reg at $MODEL_TECH/../altera/verilog/src/cycloneive_atoms.v line 7113
+# Error opening D:/ava/term4/FLAT/DLD/model/altera/verilog/src/cycloneive_atoms.v
+# Path name 'D:/ava/term4/FLAT/DLD/model/altera/verilog/src/cycloneive_atoms.v' doesn't exist.
+quit -sim
+# End time: 13:19:38 on May 28,2022, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 3
+vsim -gui -L altera_ver -L cycloneive_ver -L cycloneiv_ver -sdftyp /FG=D:/ava/term4/FLAT/DLD/model/FunctionGenerator_v.sdo work.functionGenTB
+# vsim -gui -L altera_ver -L cycloneive_ver -L cycloneiv_ver -sdftyp "/FG=D:/ava/term4/FLAT/DLD/model/FunctionGenerator_v.sdo" work.functionGenTB 
+# Start time: 13:20:31 on May 28,2022
+# Loading work.functionGenTB
+# Loading work.FunctionGenerator
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading instances from D:/ava/term4/FLAT/DLD/model/FunctionGenerator_v.sdo
+# Loading instances from FunctionGenerator_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from D:/ava/term4/FLAT/DLD/model/FunctionGenerator_v.sdo
+# Loading timing data from FunctionGenerator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /functionGenTB File: D:/ava/term4/FLAT/DLD/model/FunctionGenTB.v
+add wave -position insertpoint sim:/functionGenTB/*
+add wave -position insertpoint sim:/functionGenTB/#ALWAYS#7/*
+run -all
+# Break key hit
+# Break in Module cycloneive_ena_reg at $MODEL_TECH/../altera/verilog/src/cycloneive_atoms.v line 7113
+# Error opening D:/ava/term4/FLAT/DLD/model/altera/verilog/src/cycloneive_atoms.v
+# Path name 'D:/ava/term4/FLAT/DLD/model/altera/verilog/src/cycloneive_atoms.v' doesn't exist.
+quit -sim
+# End time: 13:22:18 on May 28,2022, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 1

@@ -1,0 +1,79 @@
+D:/ava/term4/FLAT/DLD/model/DAC.v {1 {vlog -work work -stats=none D:/ava/term4/FLAT/DLD/model/DAC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DAC
+
+Top level modules:
+	DAC
+
+} {} {}} D:/ava/term4/FLAT/DLD/model/Adder.v {1 {vlog -work work -stats=none D:/ava/term4/FLAT/DLD/model/Adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} D:/ava/term4/FLAT/DLD/quart/simulation/modelsim/FunctionGenerator.vo {1 {vlog -work work -stats=none D:/ava/term4/FLAT/DLD/quart/simulation/modelsim/FunctionGenerator.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FunctionGenerator
+-- Compiling module hard_block
+
+Top level modules:
+	FunctionGenerator
+
+} {} {}} D:/ava/term4/FLAT/DLD/model/WaveformGen.v {1 {vlog -work work -stats=none D:/ava/term4/FLAT/DLD/model/WaveformGen.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module WaveformGen
+
+Top level modules:
+	WaveformGen
+
+} {} {}} D:/ava/term4/FLAT/DLD/model/Register.v {1 {vlog -work work -stats=none D:/ava/term4/FLAT/DLD/model/Register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register8bit
+
+Top level modules:
+	Register8bit
+
+} {} {}} D:/ava/term4/FLAT/DLD/model/WaveformGenTestBench.v {1 {vlog -work work -stats=none {D:\ava\term4\FLAT\DLD\model\WaveformGenTestBench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module waveformGenTestBench
+
+Top level modules:
+	waveformGenTestBench
+
+} {} {}} D:/ava/term4/FLAT/DLD/model/FunctionGenTB.v {1 {vlog -work work -stats=none {D:\ava\term4\FLAT\DLD\model\FunctionGenTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module functionGenTB
+
+Top level modules:
+	functionGenTB
+
+} {} {}} D:/ava/term4/FLAT/DLD/model/CounterTB.v {1 {vlog -work work -stats=none D:/ava/term4/FLAT/DLD/model/CounterTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CounterTB
+
+Top level modules:
+	CounterTB
+
+} {} {}} D:/ava/term4/FLAT/DLD/model/Mux.v {1 {vlog -work work -stats=none D:/ava/term4/FLAT/DLD/model/Mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux
+
+Top level modules:
+	Mux
+
+} {} {}} D:/ava/term4/FLAT/DLD/model/AmplitudeSelector.v {1 {vlog -work work -stats=none {D:\ava\term4\FLAT\DLD\model\AmplitudeSelector.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module AmplitudeSelector
+
+Top level modules:
+	AmplitudeSelector
+
+} {} {}} D:/ava/term4/FLAT/DLD/model/Counter8bit.v {1 {vlog -work work -stats=none D:/ava/term4/FLAT/DLD/model/Counter8bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter8Bit
+
+Top level modules:
+	Counter8Bit
+
+} {} {}}

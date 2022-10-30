@@ -1,0 +1,372 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vAdder
+!s110 1653589639
+!i10b 1
+!s100 hz0mfi;aodEVEPe39U_]A0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IHh<;lU9BQmn]KJ5EY9IjT2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/ava/term4/FLAT/DLD/model
+w1653586482
+8D:/ava/term4/FLAT/DLD/model/Adder.v
+FD:/ava/term4/FLAT/DLD/model/Adder.v
+!i122 65
+Z3 L0 1 3
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1653589639.000000
+!s107 D:/ava/term4/FLAT/DLD/model/Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ava/term4/FLAT/DLD/model/Adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@adder
+vAmplitudeSelector
+!s110 1653592896
+!i10b 1
+!s100 S9@lz>K;d:<@GX]=D808[1
+R0
+ISV;8A?SQCGmPWKDjcKD322
+R1
+R2
+w1653592890
+8D:\ava\term4\FLAT\DLD\model\AmplitudeSelector.v
+FD:\ava\term4\FLAT\DLD\model\AmplitudeSelector.v
+!i122 80
+R3
+R4
+r1
+!s85 0
+31
+!s108 1653592895.000000
+!s107 D:\ava\term4\FLAT\DLD\model\AmplitudeSelector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\ava\term4\FLAT\DLD\model\AmplitudeSelector.v|
+!i113 1
+R6
+R7
+n@amplitude@selector
+vCounter12Bit
+Z8 !s110 1653400538
+!i10b 1
+!s100 MgHT4KaF2:kk`T5zd7gkJ1
+R0
+I16z<ihn^<@Z4m>gS2n`CT1
+R1
+R2
+w1653399496
+8D:/ava/term4/FLAT/DLD/model/Counter12Bit.v
+FD:/ava/term4/FLAT/DLD/model/Counter12Bit.v
+!i122 22
+Z9 L0 1 12
+R4
+r1
+!s85 0
+31
+!s108 1653400538.000000
+!s107 D:/ava/term4/FLAT/DLD/model/Counter12Bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ava/term4/FLAT/DLD/model/Counter12Bit.v|
+!i113 1
+R6
+R7
+n@counter12@bit
+vCounter8Bit
+!s110 1653671303
+!i10b 1
+!s100 7]d:ZL9ha6N@5i0lRJeUP2
+R0
+I=RHHg9M=`6]o_HBVfcCdm2
+R1
+R2
+w1653671275
+8D:/ava/term4/FLAT/DLD/model/Counter8bit.v
+FD:/ava/term4/FLAT/DLD/model/Counter8bit.v
+!i122 84
+R9
+R4
+r1
+!s85 0
+31
+!s108 1653671298.000000
+!s107 D:/ava/term4/FLAT/DLD/model/Counter8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ava/term4/FLAT/DLD/model/Counter8bit.v|
+!i113 1
+R6
+R7
+n@counter8@bit
+vCounterTB
+!s110 1653589637
+!i10b 1
+!s100 TS?]Z78P7RDm3lz_3>AC@2
+R0
+IC2^OY;4JM:mkZIV9R0B7L3
+R1
+R2
+w1653402469
+Z10 8D:/ava/term4/FLAT/DLD/model/CounterTB.v
+Z11 FD:/ava/term4/FLAT/DLD/model/CounterTB.v
+!i122 62
+L0 2 13
+R4
+r1
+!s85 0
+31
+!s108 1653589637.000000
+Z12 !s107 D:/ava/term4/FLAT/DLD/model/CounterTB.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|D:/ava/term4/FLAT/DLD/model/CounterTB.v|
+!i113 1
+R6
+R7
+n@counter@t@b
+XCounterTB_v_unit
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1653400321
+V0i32G;5=:YW@kgUT39B551
+r1
+!s85 0
+!i10b 1
+!s100 ZX0fzfQQC4N7HCQ9Xo^[I3
+I0i32G;5=:YW@kgUT39B551
+!i103 1
+S1
+R2
+w1653400314
+R10
+R11
+!i122 18
+L0 1 0
+R4
+31
+!s108 1653400321.000000
+R12
+R13
+!i113 1
+R6
+R7
+n@counter@t@b_v_unit
+vDAC
+!s110 1653636798
+!i10b 1
+!s100 Nk=GM58ZigM;ZZB<[EGB22
+R0
+IE:ZTD[PIH^<5CXThnOmZ93
+R1
+R2
+w1653636788
+8D:/ava/term4/FLAT/DLD/model/DAC.v
+FD:/ava/term4/FLAT/DLD/model/DAC.v
+!i122 83
+L0 1 15
+R4
+r1
+!s85 0
+31
+!s108 1653636797.000000
+!s107 D:/ava/term4/FLAT/DLD/model/DAC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ava/term4/FLAT/DLD/model/DAC.v|
+!i113 1
+R6
+R7
+n@d@a@c
+vFunctionGenerator
+Z14 !s110 1653727580
+!i10b 1
+!s100 lmHU0b2>3Fm@^fOjnB`N43
+R0
+I5_i`4@bU9TNfPlR3<<X[;0
+R1
+R2
+Z15 w1653727423
+Z16 8D:/ava/term4/FLAT/DLD/quart/simulation/modelsim/FunctionGenerator.vo
+Z17 FD:/ava/term4/FLAT/DLD/quart/simulation/modelsim/FunctionGenerator.vo
+!i122 88
+L0 32 4420
+R4
+r1
+!s85 0
+31
+Z18 !s108 1653727580.000000
+Z19 !s107 D:/ava/term4/FLAT/DLD/quart/simulation/modelsim/FunctionGenerator.vo|
+Z20 !s90 -reportprogress|300|-work|work|-stats=none|D:/ava/term4/FLAT/DLD/quart/simulation/modelsim/FunctionGenerator.vo|
+!i113 1
+R6
+R7
+n@function@generator
+vfunctionGenTB
+!s110 1653727587
+!i10b 1
+!s100 L4WiYaW7`b_eI457?z3L_3
+R0
+Ia_mB7<]YADGC7AdkY]kFM2
+R1
+R2
+w1653727569
+8D:\ava\term4\FLAT\DLD\model\FunctionGenTB.v
+FD:\ava\term4\FLAT\DLD\model\FunctionGenTB.v
+!i122 89
+Z21 L0 2 22
+R4
+r1
+!s85 0
+31
+!s108 1653727586.000000
+!s107 D:\ava\term4\FLAT\DLD\model\FunctionGenTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\ava\term4\FLAT\DLD\model\FunctionGenTB.v|
+!i113 1
+R6
+R7
+nfunction@gen@t@b
+vhard_block
+R14
+!i10b 1
+!s100 9S1kCdCa2;NdVJ6e1hE1n3
+R0
+I>gleQOA0BT00j[@:L7Y`U1
+R1
+R2
+R15
+R16
+R17
+!i122 88
+L0 4453 34
+R4
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R6
+R7
+vMux
+Z22 !s110 1653589640
+!i10b 1
+!s100 V[TG_>fIT57GOlMVenWXm2
+R0
+I`@R:lJmWbVGU[nZN88BEb0
+R1
+R2
+w1653586750
+8D:/ava/term4/FLAT/DLD/model/Mux.v
+FD:/ava/term4/FLAT/DLD/model/Mux.v
+!i122 67
+R3
+R4
+r1
+!s85 0
+31
+Z23 !s108 1653589640.000000
+!s107 D:/ava/term4/FLAT/DLD/model/Mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ava/term4/FLAT/DLD/model/Mux.v|
+!i113 1
+R6
+R7
+n@mux
+vRegister8bit
+R22
+!i10b 1
+!s100 7DB]L2EbYJ`8VT1ifJ@=Y2
+R0
+ImMiLmAj9fgz[XR7lF@4_01
+R1
+R2
+w1653586601
+8D:/ava/term4/FLAT/DLD/model/Register.v
+FD:/ava/term4/FLAT/DLD/model/Register.v
+!i122 66
+L0 1 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ava/term4/FLAT/DLD/model/Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ava/term4/FLAT/DLD/model/Register.v|
+!i113 1
+R6
+R7
+n@register8bit
+vWaveformGen
+!s110 1653589636
+!i10b 1
+!s100 H3`>9eTdVX32Z3Y90YnNK1
+R0
+I>H8?b?I3PlTkoQO=:Q@Yn3
+R1
+R2
+w1653405068
+8D:/ava/term4/FLAT/DLD/model/WaveformGen.v
+FD:/ava/term4/FLAT/DLD/model/WaveformGen.v
+!i122 61
+L0 1 30
+R4
+r1
+!s85 0
+31
+!s108 1653589636.000000
+!s107 D:/ava/term4/FLAT/DLD/model/WaveformGen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ava/term4/FLAT/DLD/model/WaveformGen.v|
+!i113 1
+R6
+R7
+n@waveform@gen
+vWaveformGenerator
+R8
+!i10b 1
+!s100 LU3fMEY88SmaM@E_5joa50
+R0
+Ie@DfHS5<n=oeI0SI:=>H51
+R1
+R2
+w1653158243
+8D:/ava/term4/FLAT/DLD/quartus/WaveformGenerator.v
+FD:/ava/term4/FLAT/DLD/quartus/WaveformGenerator.v
+!i122 20
+L0 20 26
+R4
+r1
+!s85 0
+31
+!s108 1653400537.000000
+!s107 D:/ava/term4/FLAT/DLD/quartus/WaveformGenerator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ava/term4/FLAT/DLD/quartus/WaveformGenerator.v|
+!i113 1
+R6
+R7
+n@waveform@generator
+vwaveformGenTestBench
+R22
+!i10b 1
+!s100 _Sc6Yim<06gD=j=Iz3NCm3
+R0
+I^Eke;][c;3LV6gBhTzeBM1
+R1
+R2
+w1653589423
+8D:/ava/term4/FLAT/DLD/model/FunctionGenTB.v
+FD:/ava/term4/FLAT/DLD/model/FunctionGenTB.v
+!i122 68
+R21
+R4
+r1
+!s85 0
+31
+R23
+!s107 D:/ava/term4/FLAT/DLD/model/FunctionGenTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ava/term4/FLAT/DLD/model/FunctionGenTB.v|
+!i113 1
+R6
+R7
+nwaveform@gen@test@bench
