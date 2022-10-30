@@ -1,0 +1,19 @@
+module Radix4Multiplier(output [15:0] Res, output [6:0] HEX0, HEX1, HEX2, HEX3, output done, input [7:0] in, input start, getA, getB, putOut, clk, rst);
+
+wire loadLsbA, loadMsbA, loadLsbB, loadMsbB, initA, initP, shiftA, loadPartial, selAddSub, muxSel;
+wire [2:0] opc;
+wire [1:0] selMux;
+
+DataPath D(Res, opc, loadLsbA, loadMsbA, loadLsbB, loadMsbB, initA, initP, shiftA,
+                loadPartial, in, selMux, selAddSub, muxSel, clk, rst);
+
+Controller C(selAddSub, initP, initA, loadLsbA, loadLsbB, loadMsbA,
+                loadMsbB, loadPartial, shiftA, muxSel, done, selMux, getA, getB, start, putOut, clk, rst, opc);
+
+
+Hexdisplay HD1 (Res[3:0], HEX0);
+Hexdisplay HD2 (Res[7:4], HEX1);
+Hexdisplay HD3 (Res[11:8], HEX2);
+Hexdisplay HD4 (Res[15:12], HEX3);
+
+endmodule

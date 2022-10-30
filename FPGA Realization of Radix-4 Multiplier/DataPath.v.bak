@@ -1,0 +1,67 @@
+module ShiftRegA(output reg[16:0] out, input clk, rst, init, loadLsbA, loadMsbA, shiftA, input[1:0] addSub2BitOut, input[7:0] in);
+    always @(posedge clk) begin
+        if(rst)
+            out <= 17'd0;
+        else if(init)
+            out <= 17'd0;
+        else if(loadLsbA)
+            out[8:0] <= {in , 1'b0};
+        else if(loadMsbA)
+            out[16:9] <= in;
+        else if(shiftA)
+            out <= {addSub2BitOut, out[16:2]};
+    end
+endmodule
+
+module RegB(output reg [15:0] out, input clk, rst, loadLsbB, loadMsbB, input[7:0] in);
+        always @(posedge clk) begin
+        if(rst)
+            out <= 16'd0;
+        else if(loadLsbB)
+            out[7:0] <= in;
+        else if(loadMsbB)
+            out[15:8] <= in;
+        end
+endmodule
+
+module RegPartial(output reg [15:0] out, input clk, rst, init, loadPartial, input[15:0] in);
+    always @(posedge clk) begin
+        if(rst)
+            out <= 16'd0;
+        else if(init)
+            out <= 16'd0;
+        else if(loadPartial)
+            out <= in;
+    end
+endmodule
+
+module MUX(output [15:0] out, input [1:0] sel, input [15:0] in1, in2, in3, in4);
+    assign out = (sel == 2'b00) ? in1:
+                 (sel == 2'b01) ? in2:
+                 (sel == 2'b10) ? in3:
+                 (sel == 2'b11) ? in4:
+                 in2;
+endmodule
+
+module Adder(output [15:0] out, input selAddSub, input [15:0] B, P);
+    wire [15:0] add;
+    wire [15:0] sub;
+    assign add = P + B;
+    assign sub = P - B;
+    assign out = selAddSub ? sub : add;
+endmodule
+
+module DataPath(output [31:0] Res, output [2:0] selA, input loadLsbA, loadMsbA, loadLsbB, loadMsbB, initA, initP, shiftA,
+                loadPartial, input [7:0] in, input[1:0] selMux, input selAddSub, clk, rst);
+    
+    wire [16:0] outA;
+    wire [15:0] outB, shiftB, outP, outMux, addSubOut;
+    assign shiftB = outB << 2;
+    assign Res = {addSubOut, outA[15:0]};
+    assign selA = outA[2:0];
+    ShiftRegA registerShA(outA, clk, rst, initA, loadLsbA, loadMsbA, shiftA, addSubOut[1:0], in);
+    RegB registerB(outB, clk, rst, loadLsbB, loadMsbB, in);
+    RegPartial registerP(outP, clk, rst, initP, loadPartial, {addSubOut[15], addSubOut[15], addSubOut[15:2]});
+    MUX mux(outMux, selMux, shiftB, 16'd0, outB, 16'd0);
+    Adder addSub(addSubOut, selAddSub, outMux, outP);
+endmodule

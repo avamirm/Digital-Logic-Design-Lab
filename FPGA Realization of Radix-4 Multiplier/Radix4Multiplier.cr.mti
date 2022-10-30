@@ -1,0 +1,42 @@
+C:/Users/MY-IDEA/Desktop/DLDLab2/DataPath.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLDLab2/DataPath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ShiftRegA
+-- Compiling module RegB
+-- Compiling module RegPartial
+-- Compiling module MUX
+-- Compiling module Mux2
+-- Compiling module Adder
+-- Compiling module DataPath
+
+Top level modules:
+	DataPath
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLDLab2/Hexdisplay.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLDLab2/Hexdisplay.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Hexdisplay
+
+Top level modules:
+	Hexdisplay
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLDLab2/Radix4Multiplier.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLDLab2/Radix4Multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Radix4Multiplier
+
+Top level modules:
+	Radix4Multiplier
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLDLab2/controller.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLDLab2/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLDLab2/TestBench.v {1 {vlog -work work -stats=none {C:\Users\MY-IDEA\Desktop\DLDLab2\TestBench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}}

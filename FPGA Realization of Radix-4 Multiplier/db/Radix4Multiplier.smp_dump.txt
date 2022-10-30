@@ -1,0 +1,13 @@
+
+State Machine - |Radix4Multiplier|Controller:C|ps
+Name ps.MuxSelect2 ps.MuxSelect1 ps.Select ps.MsbB ps.WaitB ps.LsbB ps.MsbA ps.WaitA ps.LsbA ps.Idle 
+ps.Idle 0 0 0 0 0 0 0 0 0 0 
+ps.LsbA 0 0 0 0 0 0 0 0 1 1 
+ps.WaitA 0 0 0 0 0 0 0 1 0 1 
+ps.MsbA 0 0 0 0 0 0 1 0 0 1 
+ps.LsbB 0 0 0 0 0 1 0 0 0 1 
+ps.WaitB 0 0 0 0 1 0 0 0 0 1 
+ps.MsbB 0 0 0 1 0 0 0 0 0 1 
+ps.Select 0 0 1 0 0 0 0 0 0 1 
+ps.MuxSelect1 0 1 0 0 0 0 0 0 0 1 
+ps.MuxSelect2 1 0 0 0 0 0 0 0 0 1 
