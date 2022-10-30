@@ -1,0 +1,63 @@
+module ControllerAcc(input clk, rst, start, read, eng_done, empty, output reg eng_start, writeReq, done, readReq,
+ output reg[2:0] counter);
+    reg [2:0] ps, ns;
+    reg cntEn, initCounter;
+    wire co;
+    parameter [2:0] Idle = 0, Wait = 1, EngStart = 2, EngDone = 3, CountRom = 4, WriteDone = 5, ReadFIFO = 6,
+              Final = 7; 
+    always @(ps, start, eng_done, co, read, empty)begin
+        ns = Idle;
+        {initCounter, cntEn, writeReq, eng_start, done, readReq} = 7'd0;
+        case(ps)
+            Idle: begin
+                ns = start ? Wait : Idle;
+                initCounter = 1'b1;
+            end
+            Wait: begin
+                ns = EngStart;
+            end
+            EngStart: begin
+                ns = EngDone;
+                eng_start = 1'b1;
+            end
+            EngDone: begin
+                ns = eng_done ? CountRom : EngDone;
+                writeReq = eng_done ? 1'b1 : 1'b0;
+            end
+            CountRom: begin
+                ns = co ? WriteDone : EngStart;
+                cntEn = 1'b1;
+            end
+            WriteDone: begin
+                ns = ReadFIFO;
+                done = 1'b1;
+            end
+            ReadFIFO: begin
+                ns = read ? Final : ReadFIFO;
+                readReq = read ? 1'b1 : 1'b0;
+            end
+            Final: begin
+                ns = empty ? Idle : ~read ? ReadFIFO : Final;
+            end
+        endcase
+    end
+
+    always @(posedge clk, posedge rst) begin
+        if(rst)
+            ps <= Idle;
+        else
+            ps <= ns;
+    end
+
+
+
+    always @(posedge clk , posedge rst) begin
+        if(rst)
+           counter <= 3'd0;
+        else if(initCounter)
+           counter <= 3'd0;
+        else if(cntEn)
+           counter <= counter + 1'b1;
+    end
+    assign co = &counter;
+endmodule

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Jun 18 20:18:59 2022
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : Accelerator
+Top-level Entity Name : Accelerator
+Family : Cyclone IV E
+Device : EP4CE6E22C6
+Timing Models : Final
+Total logic elements : 135 / 6,272 ( 2 % )
+    Total combinational functions : 133 / 6,272 ( 2 % )
+    Dedicated logic registers : 83 / 6,272 ( 1 % )
+Total registers : 83
+Total pins : 23 / 92 ( 25 % )
+Total virtual pins : 0
+Total memory bits : 272 / 276,480 ( < 1 % )
+Embedded Multiplier 9-bit elements : 2 / 30 ( 7 % )
+Total PLLs : 0 / 2 ( 0 % )

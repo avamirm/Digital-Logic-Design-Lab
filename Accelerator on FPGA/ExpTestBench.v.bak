@@ -1,0 +1,46 @@
+`timescale 1ns/1ns
+
+module ExpTB();
+    wire [15:0] fractionalPart;
+    wire [1:0] integerPart;
+    wire done;
+
+    reg [15:0] x;
+    reg clk = 1'b0, rst = 1'b0, start = 1'b0;
+    
+    exponential Exp(.x(x), .start(start), .clk(clk), .rst(rst), .done(done), .intpart(integerPart), .fracpart(fractionalPart));
+
+    always #10 clk = ~clk;
+
+    initial begin
+        #5 rst = 1'b1;
+        #5 rst = 1'b0;
+        #12 x = 16'h8000;
+        #0 start = 1'b1;
+        #12 start = 1'b0;
+        while (~done) #12;
+        #150;
+        #12 x = 16'hCCCC;
+        #0 start = 1'b1;
+        #12 start = 1'b0;
+        while (~done) #12;
+        #150;
+        #12 x = 16'h3333;
+        #0 start = 1'b1;
+        #12 start = 1'b0;
+        while (~done) #12;
+        #150;
+        #12 x = 16'hFD70;
+        #0 start = 1'b1;
+        #12 start = 1'b0;
+        while (~done) #12;
+        #150;
+        #12 x = 16'h028F;
+        #0 start = 1'b1;
+        #12 start = 1'b0;
+        while (~done) #12;
+        #150;
+        #150 $stop;
+    end
+endmodule
+

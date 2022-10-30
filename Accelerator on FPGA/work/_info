@@ -1,0 +1,481 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/MY-IDEA/Desktop/Project3
+vAccelerator
+Z0 !s110 1655566464
+!i10b 1
+!s100 0O[IZB1l4g0A9Xl@Rz:I60
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IRJE9D4k>72m15:lbDeNc41
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/MY-IDEA/Desktop/DLD_LAB4
+Z4 w1654541188
+Z5 8C:/Users/MY-IDEA/Desktop/DLD_LAB4/simulation/modelsim/Accelerator.vo
+Z6 FC:/Users/MY-IDEA/Desktop/DLD_LAB4/simulation/modelsim/Accelerator.vo
+!i122 288
+L0 32 4908
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1655566464.000000
+Z9 !s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/simulation/modelsim/Accelerator.vo|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/simulation/modelsim/Accelerator.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@accelerator
+vAcceleratorTB
+Z13 !s110 1655566465
+!i10b 1
+!s100 9J?CULMQ2PB5cgl;a70;:3
+R1
+Ii9bJJ6_6f7RbI^OUSQ2Rk1
+R2
+R3
+w1655566416
+8C:\Users\MY-IDEA\Desktop\DLD_LAB4\AcceleratorTB.v
+FC:\Users\MY-IDEA\Desktop\DLD_LAB4\AcceleratorTB.v
+!i122 299
+L0 3 36
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\MY-IDEA\Desktop\DLD_LAB4\AcceleratorTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\MY-IDEA\Desktop\DLD_LAB4\AcceleratorTB.v|
+!i113 1
+R11
+R12
+n@accelerator@t@b
+vadder
+R0
+!i10b 1
+!s100 eCc=H`lER_4_hdzNQgFR22
+R1
+II>0zJR;cSRY_2PoEB:ZEf3
+R2
+R3
+w1653745700
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/adder.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/adder.v
+!i122 289
+L0 1 5
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/adder.v|
+!i113 1
+R11
+R12
+vcontroller
+R0
+!i10b 1
+!s100 LLb@4zkMGkgBUXKIm9cNk2
+R1
+IIgNozDc6UJo=f:c??b`E;2
+R2
+R3
+w1653746184
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/Controller.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/Controller.v
+!i122 290
+L0 1 71
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/Controller.v|
+!i113 1
+R11
+R12
+vControllerAcc
+!s110 1655566463
+!i10b 1
+!s100 HF@nZI_TImEZH:`n3P5^53
+R1
+IZTPVWRUUC=iOTX5ZFj9N]0
+R2
+R3
+w1654539893
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/ControllerAcc.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/ControllerAcc.v
+!i122 285
+L0 1 65
+R7
+r1
+!s85 0
+31
+Z14 !s108 1655566463.000000
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/ControllerAcc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/ControllerAcc.v|
+!i113 1
+R11
+R12
+n@controller@acc
+vcounter
+R0
+!i10b 1
+!s100 UQ1j^HaPSjWgWN`:a6=h<1
+R1
+INKi8IKY0M:Qo0bFk3;bQj2
+R2
+R3
+w1653745786
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/Counter.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/Counter.v
+!i122 291
+Z15 L0 2 14
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/Counter.v|
+!i113 1
+R11
+R12
+vdatapath
+R0
+!i10b 1
+!s100 X3Sl?G^Fbb0?X:oc4_X;92
+R1
+ILH>6Y:b<lGAo4n^:3@mzH0
+R2
+R3
+w1653746702
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/Datapath.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/Datapath.v
+!i122 292
+L0 1 24
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/Datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/Datapath.v|
+!i113 1
+R11
+R12
+vexponential
+R0
+!i10b 1
+!s100 md5;Vb<:7I>l6FG0?]Gm43
+R1
+I_hfd;z_fjT3K72h`ckVbo0
+R2
+R3
+w1653812506
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/exponential.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/exponential.v
+!i122 293
+L0 1 12
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/exponential.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/exponential.v|
+!i113 1
+R11
+R12
+vExpTB
+R13
+!i10b 1
+!s100 3ZBL1=bCOUnLLf9Y3zc853
+R1
+I@GjfXZL8c:[9^jMPP_GTY0
+R2
+R3
+w1655559609
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/ExpTestBench.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/ExpTestBench.v
+!i122 303
+L0 3 43
+R7
+r1
+!s85 0
+31
+Z16 !s108 1655566465.000000
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/ExpTestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/ExpTestBench.v|
+!i113 1
+R11
+R12
+n@exp@t@b
+vFIFO
+R0
+!i10b 1
+!s100 PC<d`NUb7c>ciE[B4I3IQ1
+R1
+IooJSMi=K<ObHi=VDiLb6k1
+R2
+R3
+w1653823013
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/FIFO.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/FIFO.v
+!i122 286
+L0 40 48
+R7
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/FIFO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/FIFO.v|
+!i113 1
+R11
+R12
+n@f@i@f@o
+vFinal
+R13
+!i10b 1
+!s100 SMIP`?5_B]D=J<d4ccg`13
+R1
+I0^cY0ahM8_<ciDF<JPM1f1
+R2
+R3
+w1655025716
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/Final.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/Final.v
+!i122 302
+L0 1 6
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/Final.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/Final.v|
+!i113 1
+R11
+R12
+n@final
+vhard_block
+R0
+!i10b 1
+!s100 Il?:@f[gdIo86n=hJng=M1
+R1
+IEISl9cY]ijf3M71?Zdeii3
+R2
+R3
+R4
+R5
+R6
+!i122 288
+L0 4941 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vHexdisplay
+R13
+!i10b 1
+!s100 M_Ph_6Jg7a<7geUIJkkSc2
+R1
+IGBcQCV2;AWa4MQLkkJ4[]1
+R2
+R3
+w1652000473
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/Hexdisplay.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/Hexdisplay.v
+!i122 301
+L0 8 24
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/Hexdisplay.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/Hexdisplay.v|
+!i113 1
+R11
+R12
+n@hexdisplay
+vLUT
+R0
+!i10b 1
+!s100 JgVO?Lj==2bRMg4oCe6nH3
+R1
+Ij2=?B84Z5lQcIWi>9GC;D1
+R2
+R3
+w1653747016
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/LUTExp.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/LUTExp.v
+!i122 294
+L0 1 16
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/LUTExp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/LUTExp.v|
+!i113 1
+R11
+R12
+n@l@u@t
+vmultiplier
+R0
+!i10b 1
+!s100 OLiLEPYa]L[;Zh@Me8Z9f1
+R1
+I329@]]7Z[QYz5b]LEfK?U2
+R2
+R3
+w1653745912
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/multiplier.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/multiplier.v
+!i122 295
+Z17 L0 2 5
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/multiplier.v|
+!i113 1
+R11
+R12
+vmux2to1
+R0
+!i10b 1
+!s100 FWhMI@:R3Tdk@:__`5[C<2
+R1
+I`Yc5`>5GhHGUGObM1JdNJ0
+R2
+R3
+w1653745948
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/mux2to1.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/mux2to1.v
+!i122 296
+R17
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/mux2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/mux2to1.v|
+!i113 1
+R11
+R12
+vRadix4
+R13
+!i10b 1
+!s100 NAd=Fd?=[1bFh6XI[[OlG2
+R1
+I:;;4o@gm8P;;fT=g_WmPl3
+R2
+R3
+w1652000481
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/Radix4.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/Radix4.v
+!i122 300
+L0 8 27
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/Radix4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/Radix4.v|
+!i113 1
+R11
+R12
+n@radix4
+vregister
+R0
+!i10b 1
+!s100 7cl4m`oQk9Q7i<YFIboml2
+R1
+I60_WHg7?e^m:T:SekH6`30
+R2
+R3
+w1653746000
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/register.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/register.v
+!i122 297
+R15
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/register.v|
+!i113 1
+R11
+R12
+vregister18
+R0
+!i10b 1
+!s100 oAz243<D<a_lCnTHNlRjS2
+R1
+I]I6HGAIYG=39W3aEmRFBf3
+R2
+R3
+w1653746042
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/register18.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/register18.v
+!i122 298
+R15
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/register18.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/register18.v|
+!i113 1
+R11
+R12
+vRom
+R0
+!i10b 1
+!s100 Y7B3I?[akcRbL@llVh<Nl2
+R1
+II8JUCzA4HG`?iHdk`gT:a2
+R2
+R3
+w1654541093
+8C:/Users/MY-IDEA/Desktop/DLD_LAB4/Rom.v
+FC:/Users/MY-IDEA/Desktop/DLD_LAB4/Rom.v
+!i122 287
+L0 40 61
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/MY-IDEA/Desktop/DLD_LAB4/Rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MY-IDEA/Desktop/DLD_LAB4/Rom.v|
+!i113 1
+R11
+R12
+n@rom

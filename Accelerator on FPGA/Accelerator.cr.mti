@@ -1,0 +1,127 @@
+C:/Users/MY-IDEA/Desktop/DLD_LAB4/Radix4.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/Radix4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Radix4
+
+Top level modules:
+	Radix4
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/ExpTestBench.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/ExpTestBench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ExpTB
+
+Top level modules:
+	ExpTB
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/register.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/register18.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/register18.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register18
+
+Top level modules:
+	register18
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/exponential.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/exponential.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module exponential
+
+Top level modules:
+	exponential
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/multiplier.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/Counter.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/mux2to1.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/mux2to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/LUTExp.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/LUTExp.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LUT
+
+Top level modules:
+	LUT
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/AcceleratorTB.v {1 {vlog -work work -stats=none {C:\Users\MY-IDEA\Desktop\DLD_LAB4\AcceleratorTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module AcceleratorTB
+
+Top level modules:
+	AcceleratorTB
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/ControllerAcc.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/ControllerAcc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ControllerAcc
+
+Top level modules:
+	ControllerAcc
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/Controller.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/Controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/FIFO.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/FIFO.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/Rom.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/Rom.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Rom
+
+Top level modules:
+	Rom
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/Datapath.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/Datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/adder.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/Final.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/Final.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Final
+
+Top level modules:
+	Final
+
+} {} {}} C:/Users/MY-IDEA/Desktop/DLD_LAB4/Hexdisplay.v {1 {vlog -work work -stats=none C:/Users/MY-IDEA/Desktop/DLD_LAB4/Hexdisplay.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Hexdisplay
+
+Top level modules:
+	Hexdisplay
+
+} {} {}}
